@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <style>
+
+        div{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .header{
+            border: 1px solid burlywood;
+            background-color: rgb(253, 233, 207);
+            width: 100%;
+            height: 150px;
+
+        }
+        .slideshow{
+            border: 1px solid rgb(253, 0, 0);
+            background-color: rgb(255, 171, 177);
+            width: 100%;
+            height: 300px;
+
+        }
+        .sidebar{
+            border: 1px solid rgb(141, 135, 222);
+            background-color: rgb(199, 199, 235);
+            width: 30%;
+            height: 400px;
+            float: right;
+        }
+        .content{
+            border: 1px solid rgb(157, 236, 30);
+            background-color: rgb(226, 255, 183);
+            width: 69%;
+            height: 400px;
+        }
+        .footer{
+            border: 1px solid rgb(250, 135, 12);
+            background-color: rgb(251, 255, 131);
+            width: 100%;
+            height: 100px;
+            margin-top: 5px;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        li{
+            display: inline;
+            font-size: larger;
+            margin-right: 40px;
+            cursor: pointer;
+            border: 1px solid aliceblue;
+            background-color: aliceblue;
+            padding:8px;
+            border-radius: 12px;
+
+        }
+
+        li:hover{
+            color: brown;
+            background-color: rgb(255, 195, 123);
+            border: 1px solid brown;
+        }
+    </style>
+</head>
+<body>s
+
+    <h1>Layout</h1>
+    <div class="header">
+        <h1>Header</h1>
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About us</li>
+            <li>Contact us</li>
+        </ul>
+    </div>
+    <div class="slideshow">slideshow</div>
+    <div class="sidebar">sidebar</div>
+    <div class="content">content</div>
+    <div class="footer">footer</div>
+</body>
+</html>

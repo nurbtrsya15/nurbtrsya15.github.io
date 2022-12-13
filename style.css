@@ -1,0 +1,13 @@
+h1{
+    color: rgb(110, 3, 73);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 25px;
+}
+
+body{
+    background-image: url(images/background-with-shadow-floral-branches_53876-102701.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
